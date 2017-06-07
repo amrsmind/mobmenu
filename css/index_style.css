@@ -1,0 +1,58 @@
+*{margin:0;padding:0;}
+body{ 
+font-family: "Segoe UI Light";
+
+    font-family: 'Josefin Sans', sans-serif;
+    
+height : 1000px;    
+}
+.mobmenu {
+position:absolute;
+top:2px;
+right:5px;    
+cursor: pointer;
+display:inline-block;
+position: fixed;    
+}
+.mobmenu div { 
+width : 50px;
+height : 7px;
+background-color:#09c;
+margin:6px;
+transition: 0.4s;
+}
+.mobmenu:hover > div{
+background-color:#7D7D95;     
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+/**The left side menu for mob**********/
+
+.leftsidemobmenu {
+overflow:hidden;     
+width:0px;
+background-color: #09c;
+height : 100%;
+position:absolute;
+top:0;
+left:0;
+position:fixed;     
+}
+.leftsidemobmenu ul li {
+list-style-type: none;
+margin:50 10;
+color : white;    
+}
+
+
+
+/*END **********the left side menu for mob*******************/
